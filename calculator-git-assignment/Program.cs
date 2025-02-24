@@ -16,7 +16,6 @@ namespace calculator_git_assignment
 
             do
             {
-                Console.WriteLine("What do you want to calculate?");
                 input = Console.ReadLine().Replace(" ", "");
                 Match match = Regex.Match(input, @"(\d+)([+\-*/])(\d+)");
 
