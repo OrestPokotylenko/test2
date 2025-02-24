@@ -6,7 +6,7 @@ namespace calculator_git_assignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("calculating");
+            Console.WriteLine("calculation 2");
             Program program = new();
             program.Start();
         }
